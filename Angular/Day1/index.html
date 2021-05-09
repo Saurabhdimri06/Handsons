@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function func(){
+            
+            var emp1 = {
+                firstName : "John",
+                lastName : "Stroke",
+                salary : 5000, 
+                permStaff : true,
+            }
+
+            var emp2 = {
+                firstName : "John",
+                lastName : "Stroke",
+                salary : 5000, 
+                permStaff : true,
+                dept : {
+                    deptId : 3, 
+                    deptName : "payroll"
+                }
+            }
+
+            var emp3 = {
+                firstName : "John",
+                lastName : "Stroke",
+                salary : 5000, 
+                permStaff : true,
+                dept : {
+                    deptId : 3, 
+                    deptName : "payroll"
+                },
+                skill_1 : [id=1, value="HTML"],
+                skill_2 : [id=2, value="CSS"],
+                skill_3 : [id=3, value="Java Script"]
+            }
+
+            console.log("Plain Employee Object");
+            console.log(emp1);
+
+            console.log("Department Object inside Employee Object");
+            console.log(emp2);
+
+            console.log("Object and String inside object");
+            console.log(emp3);
+        }
+    </script>
+
+
+</head>
+<body>
+       <h2> To Fetch the data <button type="button" onclick="func()">Click Here</button> </h2>
+</body>
+</html>
