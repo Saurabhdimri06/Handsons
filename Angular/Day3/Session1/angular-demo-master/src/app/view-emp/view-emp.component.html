@@ -1,0 +1,40 @@
+<!-- <p>view-emp works!</p> -->
+
+
+<table >
+  
+    <h2>{{title | uppercase}}</h2>
+    <br><br>
+    <tr>
+      <h2>ID: </h2><h2 class="comp">{{employee.id}} </h2>
+    </tr><br>
+    <tr>
+      <h2>Name: </h2><h2 class="comp">{{employee.firstName}} {{employee.lastName}} </h2>
+    </tr><br>
+    <tr>
+      <h2>Salary: </h2><h2 class="comp">{{employee.salary | currency:'INR'}} </h2>
+    </tr><br>
+    <tr>
+      <h2>Permanent: </h2><h2 class="comp">{{employee.permanentStaff}} </h2>
+    </tr><br>
+    <tr>
+      <h2>Department Id: </h2><h2 class="comp">{{employee.department.id}} </h2>
+    </tr><br>
+    <tr>
+      <h2>Department Name: </h2><h2 class="comp">{{employee.department.name}} </h2>
+    </tr><br>
+    <tr>
+      <td>
+        <h2>Skill Id</h2><br>
+        <h2 class="comp" *ngFor="let sk of skills">{{sk.id}}<br></h2>
+      </td>
+      <td>
+        <h2>Skill Name</h2><br>
+        <h2 class="comp" *ngFor="let sk of skills">{{sk.name}}<br></h2>
+      </td>
+    </tr><br>
+    <tr>
+      <h2>Date of Birth: </h2><h2 class="comp">{{employee.dob | date}} </h2>
+    </tr>
+    
+  </table>
