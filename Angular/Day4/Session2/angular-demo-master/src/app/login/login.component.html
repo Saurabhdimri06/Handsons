@@ -1,0 +1,6 @@
+<p>login works!</p>
+<h3>Login</h3>
+User Name:<br><input type="text" required [(ngModel)]="username"><br>
+User Name:<br><input type="password" required [(ngModel)]="password"><br>
+<p *ngIf="valid">user name and password is not valid!!</p>
+<button (click)="submit1()">login</button>
