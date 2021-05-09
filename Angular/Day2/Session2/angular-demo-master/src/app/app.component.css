@@ -1,0 +1,10 @@
+h2{
+    display: inline;
+    color: black;
+    /* font-weight:100; */
+}
+body { font-family: Segoe UI, Arial
+
+} a:visited { color: blue } 
+a { text-decoration: none } 
+.active-link { border-bottom: Solid 1px blue }

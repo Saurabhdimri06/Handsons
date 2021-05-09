@@ -1,0 +1,20 @@
+<div >
+  <h2>{{title}}</h2>
+  <a routerLink="view-emp" routerLinkActive="active">View Employee</a>
+  <a routerLink="edit-emp">Edit Employee</a>
+  
+  <router-outlet></router-outlet>
+</div>
+
+
+<!-- <div *ngFor="let emp of employee">
+  <ul >
+    <li >
+      <h3>{{emp.firstName}} {{emp.lastName}}</h3>
+    </li>
+    <li *ngIf="1">
+      <h3>{{emp.skill.name | lowercase}} </h3>
+       {{emp.dob | date}} 
+    </li>
+  </ul>
+</div> -->
