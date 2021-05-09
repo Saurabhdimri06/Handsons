@@ -1,0 +1,15 @@
+h2{
+    display: inline;
+    color: black;
+    /* font-weight:100; */
+}
+.comp{
+    font-weight:100;
+}
+
+table{
+    background-color: #ffffff; 
+    filter: alpha(opacity=40);
+    opacity: 0.95;
+    border:1px black solid;
+}

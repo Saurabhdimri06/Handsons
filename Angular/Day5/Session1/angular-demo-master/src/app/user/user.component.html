@@ -1,0 +1,55 @@
+<p>user works!</p>
+<br />
+<br />
+<h3>User Component</h3>
+<div>
+    <div>
+        <h1>Save User Form</h1>
+      <button (click)="activate()">Add-user</button>
+      <button (click)="updateUsers()">Update-user</button>
+      <button (click)="deleteUser()">Delete-user</button>   
+      <button (click)="register()">Register</button> 
+      <div [style.display]="display">
+        <form [formGroup]="saveUserForm" (ngSubmit)="onSubmit()" > 
+          <div>
+            <label>Id</label>
+            <input type="text" formControlName="id" />
+          </div>
+      
+          <div>
+            <label>First Name:</label>
+            <input type="text" formControlName="first_name" />
+          </div>
+      
+          <div>
+            <label>Last Name:</label>
+            <input type="text" formControlName="last_name" />
+          </div>
+          <div>
+            <label>Email::</label>
+            <input type="text" formControlName="email" />
+          </div>
+          <div>
+            <label>Avatar:</label>
+            <input type="text" formControlName="avatar" />
+          </div>
+      
+          <button type="submit">Register</button>
+        </form>
+        
+    </div>
+      </div>
+      <p>{{message}}</p>
+</div>
+<div class="flex-container">
+    <div class="container" *ngFor="let u of users['data']">
+        <img src="{{u.avatar}}"/><br>
+        Id :<br><span class="val">{{u.id}}</span><br>
+        First Name:<br><span class="val">{{u.first_name}}</span><br>
+        Last Name:<br><span class="val">{{u.last_name}}</span><br>
+        Email:<br><span class="val">{{u.email}}</span><br>
+        
+        
+      </div>
+      <br>
+  </div>
