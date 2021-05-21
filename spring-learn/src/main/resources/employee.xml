@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="employeeList" class="java.util.ArrayList">
+		<constructor-arg>
+			<list>
+				<ref bean="naruto" />
+				<ref bean="jiraya" />
+				<ref bean="minato" />
+				<ref bean="rengoku" />
+			</list>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="naruto" class="com.cognizant.springlearn.model.Employee">
+		<property name="id" value="1" />
+		<property name="name" value="Naruto Uzumaki" />
+		<property name="age" value="22" />
+		<property name="salary" value="15000" />
+		<property name="department" >
+			<ref bean="deptHokage" />
+		</property>
+		<property name="skill">
+			<list>
+				<ref bean="skillRasengan" />
+				<ref bean="skillSage" />
+				<ref bean="skillShadowClone" />
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="jiraya" class="com.cognizant.springlearn.model.Employee">
+		<property name="id" value="2" />
+		<property name="name" value="Jiraya" />
+		<property name="age" value="52" />
+		<property name="salary" value="10000" />
+		<property name="department" >
+			<ref bean="deptSensai" />
+		</property>
+		<property name="skill">
+			<list>
+				<ref bean="skillSage" />
+				<ref bean="skillShadowClone" />
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="minato" class="com.cognizant.springlearn.model.Employee">
+		<property name="id" value="3" />
+		<property name="name" value="Minato Uzumaki" />
+		<property name="age" value="45" />
+		<property name="salary" value="25000" />
+		<property name="department" >
+			<ref bean="deptHokage" />
+		</property>
+		<property name="skill">
+			<list>
+				<ref bean="skillRasengan" />
+				<ref bean="skillSage" />
+				<ref bean="skillShadowClone" />
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="rengoku" class="com.cognizant.springlearn.model.Employee">
+		<property name="id" value="4" />
+		<property name="name" value="Rengoku Yamato" />
+		<property name="age" value="28" />
+		<property name="salary" value="20000" />
+		<property name="department" >
+			<ref bean="deptHashira" />
+		</property>
+		<property name="skill">
+			<list>
+				<ref bean="skillRasengan" />
+				<ref bean="skillSage" />
+				<ref bean="skillShadowClone" />
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="departmentList" class="java.util.ArrayList">
+		<constructor-arg>
+			<list>
+				<ref bean="deptSensai" />
+				<ref bean="deptHokage" />
+				<ref bean="deptHashira" />
+			</list>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="deptSensai" class="com.cognizant.springlearn.model.Department">
+		<property name="id" value="1" />
+		<property name="name" value="Sensai" />
+	</bean>
+    
+    <bean id="deptHokage" class="com.cognizant.springlearn.model.Department">
+		<property name="id" value="2" />
+		<property name="name" value="Hokage" />
+	</bean>
+	
+	<bean id="deptHashira" class="com.cognizant.springlearn.model.Department">
+		<property name="id" value="3" />
+		<property name="name" value="Hashira" />
+	</bean>    
+	
+	<bean id="skillRasengan" class="com.cognizant.springlearn.model.Skill">
+		<property name="id" value="1" />
+		<property name="name" value="Skill shot Rasengan" />
+	</bean>
+ 
+	<bean id="skillSage" class="com.cognizant.springlearn.model.Skill">
+		<property name="id" value="2" />
+		<property name="name" value="Skill Frog trianed SAGE" />
+	</bean>
+ 
+ 	<bean id="skillShadowClone" class="com.cognizant.springlearn.model.Skill">
+		<property name="id" value="3" />
+		<property name="name" value="Skill Kage Busnshin no jutsu" />
+	</bean>
+ 	 
+ </beans>
+ 
