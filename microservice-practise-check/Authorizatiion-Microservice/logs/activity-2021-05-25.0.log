@@ -1,0 +1,135 @@
+2021-05-25_00-36-36 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-25_00-36-36 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 40648 (C:\Users\USER\eclipse-workspace\IPTM MIS\CDE-Project-International-Patients-treatment-management\Authorizatiion-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\IPTM MIS\CDE-Project-International-Patients-treatment-management\Authorizatiion-Microservice)
+2021-05-25_00-36-36 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 210 ms. Found 1 JPA repository interfaces.
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=0ad57fd8-9005-3623-9284-433f40c03c02
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2021-05-25_00-36-36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2021-05-25_00-36-36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-25_00-36-36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-25_00-36-36 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3281 ms
+2021-05-25_00-36-36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-25_00-36-36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2021-05-25_00-36-36 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25_00-36-36 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-05-25_00-36-36 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25_00-36-36 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-05-25_00-36-36 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25_00-36-36 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b404178, org.springframework.security.web.context.SecurityContextPersistenceFilter@50ec48f4, org.springframework.security.web.header.HeaderWriterFilter@28db13f4, org.springframework.security.web.authentication.logout.LogoutFilter@ec58058, com.cts.authorization.config.JwtRequestFilter@7e0db856, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ced696b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e5f40f2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7917f8e3, org.springframework.security.web.session.SessionManagementFilter@6d368ab8, org.springframework.security.web.access.ExceptionTranslationFilter@28b43a45, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@cea796a]
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2021-05-25_00-36-36 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2021-05-25_00-36-36 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-05-25_00-36-36 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2021-05-25_00-36-36 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2021-05-25_00-36-36 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2021-05-25_00-36-36 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2021-05-25_00-36-36 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2021-05-25_00-36-36 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2021-05-25_00-36-36 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2021-05-25_00-36-36 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2021-05-25_00-36-36 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2021-05-25_00-36-36 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-05-25_00-36-36 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1621883205052 with initial instances count: 1
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application AUTHORIZATIION-MICROSERVICE with eureka with status UP
+2021-05-25_00-36-36 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1621883205058, current=UP, previous=STARTING]
+2021-05-25_00-36-36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2021-05-25_00-36-36 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTHORIZATIION-MICROSERVICE/192.168.0.105:Authorizatiion-Microservice:8400: registering service...
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2021-05-25_00-36-36 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8400
+2021-05-25_00-36-36 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTHORIZATIION-MICROSERVICE/192.168.0.105:Authorizatiion-Microservice:8400 - registration status: 204
+2021-05-25_00-36-36 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-25_00-36-36 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-25_00-36-36 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-25_00-36-36 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 9.661 seconds (JVM running for 10.649)
+2021-05-25_00-36-36 [http-nio-8400-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25_00-36-36 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-25_00-36-36 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-05-25_00-36-36 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-05-25_00-36-36 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-05-25_00-36-36 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-05-25_00-36-36 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-05-25_00-36-36 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-05-25_00-36-36 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-05-25_00-45-01 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-25_00-45-01 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Starting AuthorizatiionMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 31964 (C:\Users\USER\eclipse-workspace\IPTM MIS\CDE-Project-International-Patients-treatment-management\Authorizatiion-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\IPTM MIS\CDE-Project-International-Patients-treatment-management\Authorizatiion-Microservice)
+2021-05-25_00-45-01 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 179 ms. Found 1 JPA repository interfaces.
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=0ad57fd8-9005-3623-9284-433f40c03c02
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2021-05-25_00-45-01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2021-05-25_00-45-01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-25_00-45-01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-25_00-45-01 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2955 ms
+2021-05-25_00-45-01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-25_00-45-01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2021-05-25_00-45-01 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25_00-45-01 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-05-25_00-45-01 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25_00-45-01 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-05-25_00-45-01 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-25_00-45-01 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24c46b60, org.springframework.security.web.context.SecurityContextPersistenceFilter@78d717c3, org.springframework.security.web.header.HeaderWriterFilter@4998e132, org.springframework.security.web.authentication.logout.LogoutFilter@5e5f40f2, com.cts.authorization.config.JwtRequestFilter@4f3c601c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@782b8699, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64f2d19d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4150842a, org.springframework.security.web.session.SessionManagementFilter@49e475e4, org.springframework.security.web.access.ExceptionTranslationFilter@130cc1be, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@328ce8bb]
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2021-05-25_00-45-01 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2021-05-25_00-45-01 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-05-25_00-45-01 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2021-05-25_00-45-01 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2021-05-25_00-45-01 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2021-05-25_00-45-01 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2021-05-25_00-45-01 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2021-05-25_00-45-01 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2021-05-25_00-45-01 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2021-05-25_00-45-01 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2021-05-25_00-45-01 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2021-05-25_00-45-01 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-05-25_00-45-01 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1621883709342 with initial instances count: 0
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application AUTHORIZATIION-MICROSERVICE with eureka with status UP
+2021-05-25_00-45-01 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1621883709347, current=UP, previous=STARTING]
+2021-05-25_00-45-01 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTHORIZATIION-MICROSERVICE/192.168.0.105:Authorizatiion-Microservice:8400: registering service...
+2021-05-25_00-45-01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2021-05-25_00-45-01 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8400
+2021-05-25_00-45-01 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-25_00-45-01 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-25_00-45-01 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTHORIZATIION-MICROSERVICE/192.168.0.105:Authorizatiion-Microservice:8400 - registration status: 204
+2021-05-25_00-45-01 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-25_00-45-01 [restartedMain] INFO  c.c.a.AuthorizatiionMicroserviceApplication - Started AuthorizatiionMicroserviceApplication in 8.387 seconds (JVM running for 9.426)
+2021-05-25_00-45-01 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2021-05-25_00-45-01 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2021-05-25_00-45-01 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2021-05-25_00-45-01 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2021-05-25_00-45-01 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2021-05-25_00-45-01 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2021-05-25_00-45-01 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2021-05-25_00-45-01 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2021-05-25_00-45-01 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-05-25_00-45-01 [http-nio-8400-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25_00-45-01 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-25_00-45-01 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-05-25_00-45-01 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-05-25_00-45-01 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-05-25_00-45-01 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-05-25_00-45-01 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-05-25_00-45-01 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-05-25_00-45-01 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-05-25_00-45-01 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-05-25_00-45-01 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-05-25_00-45-01 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
